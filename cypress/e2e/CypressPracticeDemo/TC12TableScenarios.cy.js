@@ -58,6 +58,21 @@ describe('Table', ()=>{
 
         })
 
+
+        let totalPage = 2;
+
+        for(let p=1; p<=totalPage;p++)
+        {
+                if(totalPage>1)
+                {
+                    cy.log("Current Active Page --"+p)
+                    cy.wait(2000);
+                    cy.get('ul[class="pagination"]>li:nth-child('+p+')').click();
+                    cy.wait(2000);
+                }
+
+        }
+
         
 
     })
