@@ -16,3 +16,24 @@
 2. Shadow DOM element
 3. Iframes
 4. Date Pickers in Cypress
+
+API Testing
+1. CRUD Operation
+2. Authentication and Authorization
+3. Diff Auth such as - Bearer, Basic, Digest etc
+4. JSON Library 
+5. XML Schema Validation
+
+GET, POST, PUT, PATCH and DELETE - Common Method
+
+API - Application Programming Interface - BACKEND Testing
+
+Create (POST), Read (GET), Update(PUT) and Delete(DELETE)
+
+POST - It is method which is responsible for creating a new entry or new record.
+
+GET - It is method which is responsible for retrieving the data for the user/record
+
+PUT - It is responsible for updating the data
+
+DELETE - It is resposible for Deleting the data
