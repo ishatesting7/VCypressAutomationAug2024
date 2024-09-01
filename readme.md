@@ -37,3 +37,9 @@ GET - It is method which is responsible for retrieving the data for the user/rec
 PUT - It is responsible for updating the data
 
 DELETE - It is resposible for Deleting the data
+
+- https://phptravels.net/
+- https://automationexercise.com/api_list
+- https://testautomationpractice.blogspot.com/
+- https://jqueryui.com/datepicker/ (DatePicker)
+- https://demo.automationtesting.in/Datepicker.html
