@@ -96,3 +96,13 @@ Source Code Management
 ----------------------
 
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+A - clone the repo and push the change
+B - clone the repo and push the change
+C - clone the repo and push the change
+D - clone the repo and push the change
+
+Reviewer - 
+
+main/master branch - Uploaded and Publish over GIT REPO
