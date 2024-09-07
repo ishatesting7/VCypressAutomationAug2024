@@ -43,3 +43,56 @@ DELETE - It is resposible for Deleting the data
 - https://testautomationpractice.blogspot.com/
 - https://jqueryui.com/datepicker/ (DatePicker)
 - https://demo.automationtesting.in/Datepicker.html
+----------------------------
+
+Cucumber BDD Framework
+----------------------
+
+Feature file (.feature)-
+    - Gherkin Language 
+    - Keywords
+        - feature
+        - scenario
+        - scenario outline 
+        - Example - Used to define your test data 
+            | username     | password | expoutput |
+            | abc@xyz.com  | 12321312 | loggedIn  | 
+            | abc@res.com  | 12321312 | loggedIn  | 
+            | abc@pez.com  | 12321312 | loggedIn  | 
+        - Tags  -  @Smoke, @Sanity, @Regression, @TC123
+        - Background - If there are any pre-requisite we have those into Background
+        - Gherkin Syntax - Given, When, Then, And
+
+        feature login into application
+            Given user navigate to url
+            When user enter the creds
+            And user enter the login button
+            Then user logged in
+
+        - e2e -> feature -> .feature files
+
+        - e2e -> step_definitions -> .js file
+
+StepDefinition (.js)
+        Given('user navigate to url', ()=>{
+            // Code 
+        })
+        When('user enter the creds', ()=>{
+            // Code 
+        })
+Runner
+
+
+Plugin Installation Link - https://www.npmjs.com/package/cypress-cucumber-preprocessor?ref=cypress-io.ghost.io
+
+Command - npm install --save-dev cypress-cucumber-preprocessor
+
+Cypress + PageObject + BDD Cucumber
+
+GITHUB/GITLAB/GIT/CIRCLE CI/AZURE REPO
+-------------------------------------
+
+Source Code Management
+----------------------
+
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
